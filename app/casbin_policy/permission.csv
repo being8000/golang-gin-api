@@ -1,0 +1,7 @@
+p, permission:all, /pm/*, (GET)|(POST)
+p, permission:add, /pm/add, GET
+p, permission:edit, /pm/edit/*, POST
+p, permission:delete, /pm/delete/*, POST
+p, permission:export, /pm/export, POST
+p, permission:list, /pm/list, POST
+

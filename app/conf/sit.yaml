@@ -1,0 +1,25 @@
+app:
+  name: Rest-API
+log:
+  info: ./logs/info.log
+  error: ./logs/err.log
+mysql:
+  host: localhost
+  port: 3306
+  user: root
+  password: 123456
+  name: test
+redis:
+  database: 1
+  host: 127.0.0.1
+  password: 123456
+  port: 6379
+#阿里云oss
+oss:
+  endpoint: https://oss-ap-southeast-6.aliyuncs.com
+  # oss.url=https://epon.oss-ap-southeast-6.aliyuncs.com/ 没有cdn加速
+  url: https://epon-v2.oss-accelerate.aliyuncs.com/
+  accessKeyId: LTAI5t8uifjC1RaaKgT7e5ht
+  accessKeySecret: 95NFqRgCkGaWEf1rgPP9WMpDy5SLIW
+  bucketName: epon-v2-secret
+  bucketNameWithoutSecret: epon-v2

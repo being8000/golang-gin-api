@@ -1,0 +1,7 @@
+p, user:all, /user/*, (GET)|(POST)
+p, user:add, /user/add, GET
+p, user:edit, /user/edit/*, POST
+p, user:delete, /user/delete/*, POST
+p, user:export, /user/export, POST
+p, user:list, /user/list, POST
+
